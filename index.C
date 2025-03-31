@@ -1,15 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    printf("Hello World!");
+    printf("Hello World!\n");
+    
+    //Array
+
+    char myFood[][50] = {"Hamburger", "Kjøtkaker"};
+    printf("%s", myFood[0]);
     return 0;
-}
-
-//Array
-#include <stdio.h>
-
-int main() {
-char myFood[][50] = {"Hamburger", "Kjøtkaker"};
-printf("%s", myFood[1]);
-return 0;
 }
