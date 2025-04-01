@@ -1,4 +1,10 @@
 #include <stdio.h>
+#include <string.h>
+
+/*
+Syntax
+type variableName = value;
+*/
 
 int main() {
     printf("Hello World!\n");
@@ -7,6 +13,31 @@ int main() {
     //Array
 
     char myFood[][50] = {"Hamburger", "Kjøtkaker"};
-    printf("%s", myFood[0]);
+    printf("%s\n", myFood[0]);
+
+    //Variables
+
+    int myNum;
+    myNum = 20;
+    printf("%d\n", myNum + 3);
+
+    //Format specifiers
+
+    int yourNum = 10;
+    float yourFlooatNum = 10.99;
+    char yourLetter = 'A';
+    char firstName[50] = "Anna";
+    char lastName[50] = "Mikelsen";
+    char fullName[100];
+    strcpy(fullName, firstName);
+    strcat(fullName, "\t");
+    strcat(fullName, lastName);
+
+    printf("%d\n", yourNum);
+    printf("%f\n", yourFlooatNum);
+    printf("%c\n", yourLetter);
+    printf("%s\n", fullName);
+
+
     return 0;
 }
