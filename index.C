@@ -56,7 +56,7 @@ int main() {
 
     printf("Student id: %d\n", studentID);
     printf("Student age: %d\n", studentAge);
-    printf("Student fee: %f\n", studentFee);
+    printf("Student fee: %lf\n", studentFee);
     printf("Student grade: %c\n", studentGrade);
 
     /* Calculate the 
