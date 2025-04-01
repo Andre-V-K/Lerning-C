@@ -59,5 +59,16 @@ int main() {
     printf("Student fee: %f\n", studentFee);
     printf("Student grade: %c\n", studentGrade);
 
+    /* Calculate the 
+    Area of a Rectangle*/
+
+    int length = 10;
+    int width = 7;
+    int area;
+    area = length * width;
+    printf("Length is: %d\n", length);
+    printf("Width is: %d\n", width);
+    printf("area of tbe rectangle is: %d\n", area);
+
     return 0;
 }
