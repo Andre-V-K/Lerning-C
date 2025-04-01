@@ -38,13 +38,26 @@ int main() {
     printf("%c\n", yourLetter);
     printf("%s\n", fullName);
 
-// Declare Multiple Variables
+    // Declare Multiple Variables
 
     int x = 3, y = 9, z = 60;
     int a, b, c;
     a = b = c = 80;
     printf("%d\n", x + y + z);
     printf("%d\n", a + b + c);
+
+    /*Variables Examples
+    Real Life Examples*/
+
+    int studentID = 15;
+    int studentAge = 21;
+    double studentFee = 1999.99;
+    char studentGrade = 'C';
+
+    printf("Student id: %d\n", studentID);
+    printf("Student age: %d\n", studentAge);
+    printf("Student fee: %f\n", studentFee);
+    printf("Student grade: %c\n", studentGrade);
 
     return 0;
 }
