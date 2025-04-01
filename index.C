@@ -38,6 +38,13 @@ int main() {
     printf("%c\n", yourLetter);
     printf("%s\n", fullName);
 
+// Declare Multiple Variables
+
+    int x = 3, y = 9, z = 60;
+    int a, b, c;
+    a = b = c = 80;
+    printf("%d\n", x + y + z);
+    printf("%d\n", a + b + c);
 
     return 0;
 }
