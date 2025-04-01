@@ -2,6 +2,7 @@
 
 int main() {
     printf("Hello World!\n");
+    printf("Nice!\n");
     
     //Array
 
