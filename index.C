@@ -71,7 +71,8 @@ int main() {
     printf("Width is: %d\n", width);
     printf("area of tbe rectangle is: %d\n", area);
 
-    /*Boolean Variables*/
+    /*Boolean Variables and
+    If ells*/
     
     bool isProgrammingFun = true;
     bool iLiveInnSweden = false;
