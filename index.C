@@ -72,7 +72,7 @@ int main() {
     printf("area of tbe rectangle is: %d\n", area);
 
     /*Boolean Variables and
-    If ells*/
+    If else*/
     
     bool isProgrammingFun = true;
     bool iLiveInnSweden = false;
