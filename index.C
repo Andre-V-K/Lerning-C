@@ -94,8 +94,14 @@ int main() {
         printf("no i dont live in Sweden\n");
     }
 
-    printf("%d\n", isProgrammingFun);
-    printf("%i\n", isProgrammingFun);
+    printf("1 is yes: %d\n", isProgrammingFun);
+    printf("1 is yes: %i\n", isProgrammingFun);
+
+    bool saraIsCool = true;
+    bool gregIsCool = true;
+
+    printf("1 is yes both are correct: %d\n", saraIsCool == gregIsCool);
+    printf("1 is yes one is correct: %d\n", saraIsCool && gregIsCool);
 
     return 0;
 }
