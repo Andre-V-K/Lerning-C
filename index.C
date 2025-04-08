@@ -76,6 +76,9 @@ int main() {
     
     bool isProgrammingFun = true;
     bool iLiveInnSweden = false;
+    bool saraIsCool = true;
+    bool gregIsCool = true;
+
     if (isProgrammingFun == true)
     {
         printf("is programming fun? Yes\n");
@@ -98,8 +101,6 @@ int main() {
     printf("1 is yes: %d\n", isProgrammingFun);
     printf("1 is yes: %i\n", isProgrammingFun);
 
-    bool saraIsCool = true;
-    bool gregIsCool = true;
 
     printf("1 is yes both are correct: %d\n", saraIsCool == gregIsCool);
     printf("1 is yes one is correct: %d\n", saraIsCool && gregIsCool);
