@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdbool.h>
 
 /*
 Syntax
@@ -56,7 +57,7 @@ int main() {
 
     printf("Student id: %d\n", studentID);
     printf("Student age: %d\n", studentAge);
-    printf("Student fee: %lf\n", studentFee);
+    printf("Student fee: %lf.\n", studentFee);
     printf("Student grade: %c\n", studentGrade);
 
     /* Calculate the 
@@ -69,6 +70,32 @@ int main() {
     printf("Length is: %d\n", length);
     printf("Width is: %d\n", width);
     printf("area of tbe rectangle is: %d\n", area);
+
+    /*Boolean Variables*/
+    
+    bool isProgrammingFun = true;
+    bool iLiveInnSweden = false;
+    if (isProgrammingFun == true)
+    {
+        printf("is programming fun? Yes\n");
+    }
+    else
+    {
+        printf("is programming fun? No\n");
+    }
+
+        printf("Do you live in Sweden?\t");
+    if (iLiveInnSweden == true)
+    {
+        printf("yes i live in Sweden Yes\n");
+    }
+    else
+    {
+        printf("no i dont live in Sweden\n");
+    }
+
+    printf("%d\n", isProgrammingFun);
+    printf("%i\n", isProgrammingFun);
 
     return 0;
 }
